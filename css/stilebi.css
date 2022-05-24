@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: salomesfont;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: salomeitalic;
+    src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: salomeglaho;
+    src: url(../fonts/bpg_glaho_sylfaen.ttf);
+}
+.pirvelip{
+    background-color: rgb(150, 150, 218);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.meorep{
+    background-color: bisque;
+    font-family: 'Patrick Hand', cursive;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+}
+.box2{
+    margin-left: 50px;
+    display: inline-block;
+}
+.meorep a{
+    display: block;
+}
+.test{
+    visibility: hidden;
+}
+.mesamep{
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+}
+.meotxep{
+    font-family: salomesfont;
+}
+.mexutep{
+    font-family: salomeitalic;
+}
+.meeqvsep{
+   font-family: salomeglaho;
+}
+.fa-circle-down{
+    font-size: 50px;
+    color: red;
+}
